@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExampleLibrary.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ExampleLibrary.Fakes.ShimClass1">
+            <summary>Shim type of ExampleLibrary.Class1</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimClass1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimClass1.#ctor(ExampleLibrary.Class1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimClass1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimClass1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimClass1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimClass1.Constructor">
+            <summary>Sets the mole of Class1.Class1()</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.ShimClass1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.ShimCrappyEmailService">
+            <summary>Shim type of ExampleLibrary.CrappyEmailService</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimCrappyEmailService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimCrappyEmailService.#ctor(ExampleLibrary.CrappyEmailService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimCrappyEmailService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimCrappyEmailService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimCrappyEmailService.Bind(ExampleLibrary.IEmailService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimCrappyEmailService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimCrappyEmailService.Constructor">
+            <summary>Sets the mole of CrappyEmailService.CrappyEmailService()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimCrappyEmailService.SendEmailStringStringStringString">
+            <summary>Sets the mole of CrappyEmailService.SendEmail(String to, String from, String subject, String body)</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.ShimCrappyEmailService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimCrappyEmailService.AllInstances.SendEmailStringStringStringString">
+            <summary>Sets the mole of CrappyEmailService.SendEmail(String to, String from, String subject, String body)</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.ShimOrderService">
+            <summary>Shim type of ExampleLibrary.OrderService</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimOrderService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimOrderService.#ctor(ExampleLibrary.OrderService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimOrderService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimOrderService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.Constructor">
+            <summary>Sets the mole of OrderService.OrderService()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.ConstructorIEmailService">
+            <summary>Sets the mole of OrderService.OrderService(IEmailService emailService)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.FindProductInt32">
+            <summary>Sets the mole of OrderService.FindProduct(Int32 id)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.ShipString">
+            <summary>Sets the mole of OrderService.Ship(String orderNumber)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.ThisMethodIsOnlyCalledFromXunitSoIcanSeeCodeCoverage">
+            <summary>Sets the mole of OrderService.ThisMethodIsOnlyCalledFromXunitSoIcanSeeCodeCoverage()</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.ShimOrderService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.AllInstances.FindProductInt32">
+            <summary>Sets the mole of OrderService.FindProduct(Int32 id)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.AllInstances.ShipString">
+            <summary>Sets the mole of OrderService.Ship(String orderNumber)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimOrderService.AllInstances.ThisMethodIsOnlyCalledFromXunitSoIcanSeeCodeCoverage">
+            <summary>Sets the mole of OrderService.ThisMethodIsOnlyCalledFromXunitSoIcanSeeCodeCoverage()</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.ShimProduct">
+            <summary>Shim type of ExampleLibrary.Product</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimProduct.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimProduct.#ctor(ExampleLibrary.Product)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimProduct.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.ShimProduct.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.Constructor">
+            <summary>Sets the mole of Product.Product()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.FindByIdInt32">
+            <summary>Sets the mole of Product.FindById(Int32 id)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.IdGet">
+            <summary>Sets the mole of Product.get_Id()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.IdSetInt32">
+            <summary>Sets the mole of Product.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.NameGet">
+            <summary>Sets the mole of Product.get_Name()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.NameSetString">
+            <summary>Sets the mole of Product.set_Name(String value)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.PriceGet">
+            <summary>Sets the mole of Product.get_Price()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.PriceSetDecimal">
+            <summary>Sets the mole of Product.set_Price(Decimal value)</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.ShimProduct.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.AllInstances.IdGet">
+            <summary>Sets the mole of Product.get_Id()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.AllInstances.IdSetInt32">
+            <summary>Sets the mole of Product.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.AllInstances.NameGet">
+            <summary>Sets the mole of Product.get_Name()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.AllInstances.NameSetString">
+            <summary>Sets the mole of Product.set_Name(String value)</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.AllInstances.PriceGet">
+            <summary>Sets the mole of Product.get_Price()</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.ShimProduct.AllInstances.PriceSetDecimal">
+            <summary>Sets the mole of Product.set_Price(Decimal value)</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.StubClass1">
+            <summary>Stub type of ExampleLibrary.Class1</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubClass1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubClass1.InitializeStub">
+            <summary>Initializes a new instance of type StubClass1</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubClass1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubClass1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.StubCrappyEmailService">
+            <summary>Stub type of ExampleLibrary.CrappyEmailService</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubCrappyEmailService.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubCrappyEmailService.InitializeStub">
+            <summary>Initializes a new instance of type StubCrappyEmailService</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubCrappyEmailService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubCrappyEmailService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.StubIEmailService">
+            <summary>Stub type of ExampleLibrary.IEmailService</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubIEmailService.#ctor">
+            <summary>Initializes a new instance of type StubIEmailService</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubIEmailService.el::ExampleLibrary#IEmailService#SendEmail(System.String,System.String,System.String,System.String)">
+            <summary>Sets the stub of IEmailService.SendEmail(String to, String from, String subject, String body)</summary>
+        </member>
+        <member name="F:ExampleLibrary.Fakes.StubIEmailService.SendEmailStringStringStringString">
+            <summary>Sets the stub of IEmailService.SendEmail(String to, String from, String subject, String body)</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.StubOrderService">
+            <summary>Stub type of ExampleLibrary.OrderService</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubOrderService.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubOrderService.#ctor(ExampleLibrary.IEmailService)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubOrderService.InitializeStub">
+            <summary>Initializes a new instance of type StubOrderService</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubOrderService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubOrderService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:ExampleLibrary.Fakes.StubProduct">
+            <summary>Stub type of ExampleLibrary.Product</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubProduct.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ExampleLibrary.Fakes.StubProduct.InitializeStub">
+            <summary>Initializes a new instance of type StubProduct</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubProduct.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ExampleLibrary.Fakes.StubProduct.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
